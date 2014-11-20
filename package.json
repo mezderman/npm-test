@@ -1,0 +1,23 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "test kib",
+  "main": "index.js",
+  "scripts": {
+    "test": "no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mezderman/npm-test.git"
+  },
+  "author": "Mo Ez <ezderman@hotmail.com> (http://blah.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mezderman/npm-test/issues"
+  },
+  "homepage": "https://github.com/mezderman/npm-test",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  }
+}

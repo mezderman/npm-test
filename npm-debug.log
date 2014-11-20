@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'chai', '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json npm-test@1.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'chai', null ]
+7 verbose cache add name=undefined spec="chai" args=["chai",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'chai',
+8 verbose parsed url   path: 'chai',
+8 verbose parsed url   href: 'chai' }
+9 silly lockFile 353fd541-chai chai
+10 verbose lock chai /Users/ezdermam/.npm/353fd541-chai.lock
+11 silly lockFile 353fd541-chai chai
+12 silly lockFile 353fd541-chai chai
+13 verbose addNamed [ 'chai', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 583c5f63-chai chai@
+16 verbose lock chai@ /Users/ezdermam/.npm/583c5f63-chai.lock
+17 silly addNameRange { name: 'chai', range: '*', hasData: false }
+18 verbose request where is /chai
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id a82a59f6d447b068
+21 verbose url raw /chai
+22 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+23 verbose url resolved https://registry.npmjs.org/chai
+24 verbose request where is https://registry.npmjs.org/chai
+25 info trying registry request attempt 1 at 16:55:32
+26 verbose etag "20QVPLK3SFA7B4LUO1F5CBE7L"
+27 http GET https://registry.npmjs.org/chai
+28 http 200 https://registry.npmjs.org/chai
+29 silly registry.get cb [ 200,
+29 silly registry.get   { date: 'Thu, 20 Nov 2014 21:55:33 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     etag: '"33RI8I2NRQ3WLAIE0Y7WSGAFU"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     'content-length': '64545',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '47',
+29 silly registry.get     'x-served-by': 'cache-iad2125-IAD',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '2',
+29 silly registry.get     'x-timer': 'S1416520533.294692,VS0,VE0',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly addNameRange number 2 { name: 'chai', range: '*', hasData: true }
+31 silly addNameRange versions [ 'chai',
+31 silly addNameRange   [ '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.1.3',
+31 silly addNameRange     '0.1.4',
+31 silly addNameRange     '0.1.5',
+31 silly addNameRange     '0.1.6',
+31 silly addNameRange     '0.1.7',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '0.2.1',
+31 silly addNameRange     '0.2.2',
+31 silly addNameRange     '0.2.3',
+31 silly addNameRange     '0.2.4',
+31 silly addNameRange     '0.3.0',
+31 silly addNameRange     '0.3.1',
+31 silly addNameRange     '0.3.2',
+31 silly addNameRange     '0.3.3',
+31 silly addNameRange     '0.3.4',
+31 silly addNameRange     '0.4.0',
+31 silly addNameRange     '0.4.1',
+31 silly addNameRange     '0.4.2',
+31 silly addNameRange     '0.5.0',
+31 silly addNameRange     '0.5.1',
+31 silly addNameRange     '0.5.2',
+31 silly addNameRange     '0.5.3',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.1.1',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.4.0',
+31 silly addNameRange     '1.4.1',
+31 silly addNameRange     '1.4.2',
+31 silly addNameRange     '1.5.0',
+31 silly addNameRange     '1.6.0',
+31 silly addNameRange     '1.6.1',
+31 silly addNameRange     '1.7.0',
+31 silly addNameRange     '1.7.1',
+31 silly addNameRange     '1.7.2',
+31 silly addNameRange     '1.8.0',
+31 silly addNameRange     '1.8.1',
+31 silly addNameRange     '1.9.0',
+31 silly addNameRange     '1.9.1',
+31 silly addNameRange     '1.9.2',
+31 silly addNameRange     '1.10.0' ] ]
+32 verbose addNamed [ 'chai', '1.10.0' ]
+33 verbose addNamed [ '1.10.0', '1.10.0' ]
+34 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+35 verbose lock chai@1.10.0 /Users/ezdermam/.npm/6724da50-chai-1-10-0.lock
+36 silly lockFile 96722836-y-npmjs-org-chai-chai-1-10-0-tgz https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+37 verbose lock https://registry.npmjs.org/chai/-/chai-1.10.0.tgz /Users/ezdermam/.npm/96722836-y-npmjs-org-chai-chai-1-10-0-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/chai/-/chai-1.10.0.tgz',
+38 verbose addRemoteTarball   'e4031cc87654461a75943e5a35ab46eaf39c1eb9' ]
+39 info retry fetch attempt 1 at 16:55:32
+40 verbose fetch to= /var/folders/_m/wc6zh75j1f3d9tt784505_c5_ljhvy/T/npm-5872-s6_Vb_SO/registry.npmjs.org/chai/-/chai-1.10.0.tgz
+41 http GET https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+42 error fetch failed https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+43 info retry will retry, error on last attempt: Error: read ECONNRESET
+44 info retry fetch attempt 2 at 16:55:42
+45 verbose fetch to= /var/folders/_m/wc6zh75j1f3d9tt784505_c5_ljhvy/T/npm-5872-s6_Vb_SO/registry.npmjs.org/chai/-/chai-1.10.0.tgz
+46 http GET https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+47 http 200 https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+48 silly lockFile 96722836-y-npmjs-org-chai-chai-1-10-0-tgz https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+49 silly lockFile 96722836-y-npmjs-org-chai-chai-1-10-0-tgz https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+50 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+51 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+52 silly lockFile 583c5f63-chai chai@
+53 silly lockFile 583c5f63-chai chai@
+54 error Error: EACCES, mkdir '/Users/ezdermam/.npm/chai/1.10.0'
+54 error  { [Error: EACCES, mkdir '/Users/ezdermam/.npm/chai/1.10.0']
+54 error   errno: 3,
+54 error   code: 'EACCES',
+54 error   path: '/Users/ezdermam/.npm/chai/1.10.0',
+54 error   parent: 'npm-test' }
+55 error Please try running this command again as root/Administrator.
+56 error System Darwin 13.3.0
+57 error command "node" "/usr/local/bin/npm" "install" "chai" "--save-dev"
+58 error cwd /Users/ezdermam/Development/npm-test
+59 error node -v v0.10.32
+60 error npm -v 1.4.28
+61 error path /Users/ezdermam/.npm/chai/1.10.0
+62 error code EACCES
+63 error errno 3
+64 error stack Error: EACCES, mkdir '/Users/ezdermam/.npm/chai/1.10.0'
+65 verbose exit [ 3, true ]
